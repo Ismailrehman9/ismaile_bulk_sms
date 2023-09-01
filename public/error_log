@@ -1,0 +1,30 @@
+[14-Aug-2023 14:45:30 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/SendGridEmailController.php on line 3
+[14-Aug-2023 14:46:03 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/SendGridEmailController.php on line 3
+[14-Aug-2023 14:46:57 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/SendGridEmailController.php on line 3
+[14-Aug-2023 14:47:08 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/SendGridEmailController.php on line 3
+[14-Aug-2023 14:48:29 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/SendGridEmailController.php on line 2
+[27-Aug-2023 18:00:04 UTC] PHP Fatal error:  Allowed memory size of 348127232 bytes exhausted (tried to allocate 199233536 bytes) in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 33
+[27-Aug-2023 18:00:24 UTC] PHP Fatal error:  Allowed memory size of 348127232 bytes exhausted (tried to allocate 199233536 bytes) in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 33
+[27-Aug-2023 18:00:56 UTC] PHP Fatal error:  Allowed memory size of 348127232 bytes exhausted (tried to allocate 199233536 bytes) in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 33
+[27-Aug-2023 18:02:00 UTC] PHP Fatal error:  Allowed memory size of 348127232 bytes exhausted (tried to allocate 199233536 bytes) in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 33
+[27-Aug-2023 18:12:50 UTC] PHP Fatal error:  Allowed memory size of 348127232 bytes exhausted (tried to allocate 199233536 bytes) in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 34
+[27-Aug-2023 19:31:39 UTC] PHP Warning:  Uncaught ErrorException: require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php:21
+Stack trace:
+#0 /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php(21): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(ve...', '/home4/bbagnall...', 21, Array)
+#1 /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php(21): require_once()
+#2 /home4/bbagnall/public_html/bulk/bulksms/vendor/composer/ClassLoader.php(571): include('/home4/bbagnall...')
+#3 /home4/bbagnall/public_html/bulk/bulksms/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home4/bbagnall...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home4/bbagnall/public_html/bulk/bulksms/vendor/laravel/framework/src/I in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 21
+[27-Aug-2023 19:31:39 UTC] PHP Fatal error:  main(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 21
+[27-Aug-2023 19:33:10 UTC] PHP Warning:  Uncaught ErrorException: require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php:21
+Stack trace:
+#0 /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php(21): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(ve...', '/home4/bbagnall...', 21, Array)
+#1 /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php(21): require_once()
+#2 /home4/bbagnall/public_html/bulk/bulksms/vendor/composer/ClassLoader.php(571): include('/home4/bbagnall...')
+#3 /home4/bbagnall/public_html/bulk/bulksms/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home4/bbagnall...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home4/bbagnall/public_html/bulk/bulksms/vendor/laravel/framework/src/I in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 21
+[27-Aug-2023 19:33:10 UTC] PHP Fatal error:  main(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/bbagnall/public_html/bulk/bulksms/app/Http/Controllers/Admin/ReceiveController.php on line 21
